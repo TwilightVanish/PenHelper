@@ -1,0 +1,22 @@
+{
+  "key.category.penhelper.utility": "Pen Helper",
+  "key.penhelper.minetop": "Teleport to mine top",
+  "key.penhelper.condense": "Condense Inventory",
+  "key.penhelper.dispose": "Open Trash",
+  "key.penhelper.bundle": "Create Auction bundle",
+  "key.penhelper.lastvault": "Open last vault",
+  "text.autoconfig.penhelper.title": "Pen Helper Settings!",
+  "text.autoconfig.penhelper.option.inventoryTracking": "Inventory Tracking",
+  "text.autoconfig.penhelper.option.inventoryTracking.enabled": "Enabled",
+  "text.autoconfig.penhelper.option.inventoryTracking.overlay": "Show Overlay",
+  "text.autoconfig.penhelper.option.inventoryTracking.sound": "Play warning sound",
+  "text.autoconfig.penhelper.option.inventoryTracking.diamondsOnly": "Diamond only mode",
+  "text.autoconfig.penhelper.option.filters": "Filter Chat?",
+  "text.autoconfig.penhelper.option.filters.banner": "Tips & Chat Games",
+  "text.autoconfig.penhelper.option.filters.keys": "Obtained Keys",
+  "text.autoconfig.penhelper.option.filters.levelUp": "Mining Level-Ups",
+  "text.autoconfig.penhelper.option.filters.miningHaste": "Mining haste gained",
+  "text.autoconfig.penhelper.option.filters.vault": "Vault opened/closed",
+  "text.autoconfig.penhelper.option.filters.vote": "Votes",
+  "text.autoconfig.penhelper.option.filters.worldGuard": "WorldGuard alerts"
+}
