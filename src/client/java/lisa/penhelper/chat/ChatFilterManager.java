@@ -18,11 +18,11 @@ public class ChatFilterManager {
     );
 
     public static void register() {
-        ClientReceiveMessageEvents.ALLOW_GAME.register(ChatFilterManager::shouldFilter);
+        ClientReceiveMessageEvents.ALLOW_GAME.register(ChatFilterManager::isAllowed);
     }
 
-    private static boolean shouldFilter(Component message, boolean overlay) {
-        if (overlay) return false;
+    private static boolean isAllowed(Component message, boolean overlay) {
+        if (overlay) return true;
         String messageContent = message.getString();
         for (ChatFilter filter : FILTERS) {
             if (!filter.isEnabled()) continue;
