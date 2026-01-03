@@ -15,6 +15,7 @@ public class ContainerClickMixin {
     @Inject(method = "slotClicked", at = @At("HEAD"), cancellable = true)
     private void slotClicked(Slot slot, int i, int j, ClickType clickType, CallbackInfo ci) {
         if (clickType != ClickType.THROW) return;
+        if (slot == null) return;
 
         boolean allowed = InventoryEvents.ALLOW_DROP.invoker().onDrop(slot.getItem());
 
