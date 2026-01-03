@@ -18,6 +18,7 @@ public class ModConfig implements ConfigData {
 
     public static class General {
         public boolean dropProtection = true;
+        public boolean autoSprint = false;
     }
 
     public static class InventoryTracking {

@@ -7,6 +7,7 @@ import lisa.penhelper.config.ModConfig;
 import lisa.penhelper.inventory.DropProtector;
 import lisa.penhelper.inventory.InventoryTracker;
 import lisa.penhelper.keybind.*;
+import lisa.penhelper.movement.AutoSprint;
 import lisa.penhelper.overlay.HudRenderer;
 import lisa.penhelper.overlay.InventoryDisplay;
 import lisa.penhelper.overlay.ShardGoalDisplay;
@@ -38,6 +39,7 @@ public class PenHelperClient implements ClientModInitializer {
 		VaultPager.register();
 		DropProtector.register();
 		KeybindRegistry.registerAll();
+		AutoSprint.register();
 
 		ShardGoalDisplay.register();
 		InventoryTracker.register();
