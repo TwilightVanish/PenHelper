@@ -4,6 +4,7 @@ import lisa.penhelper.chat.ChatFilterManager;
 import lisa.penhelper.config.ConfigMenuButton;
 import lisa.penhelper.config.ConfigProvider;
 import lisa.penhelper.config.ModConfig;
+import lisa.penhelper.inventory.DropProtector;
 import lisa.penhelper.inventory.InventoryTracker;
 import lisa.penhelper.keybind.*;
 import lisa.penhelper.overlay.HudRenderer;
@@ -35,7 +36,7 @@ public class PenHelperClient implements ClientModInitializer {
 
 		ChatFilterManager.register();
 		VaultPager.register();
-
+		DropProtector.register();
 		KeybindRegistry.registerAll();
 
 		ShardGoalDisplay.register();

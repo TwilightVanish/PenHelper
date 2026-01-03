@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "lisa.penhelper.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LocalPlayerDropMixin",
+		"ContainerClickMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

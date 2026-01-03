@@ -16,6 +16,10 @@ public final class ConfigProvider {
                 });
     }
 
+    public static ModConfig.General general() {
+        return config.general;
+    }
+
     public static ModConfig.InventoryTracking inventoryTracking() {
         return config.inventoryTracking;
     }

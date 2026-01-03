@@ -6,6 +6,8 @@
   "key.penhelper.bundle": "Create Auction bundle",
   "key.penhelper.lastvault": "Open last vault",
   "text.autoconfig.penhelper.title": "Pen Helper Settings!",
+  "text.autoconfig.penhelper.option.general": "General",
+  "text.autoconfig.penhelper.option.general.dropProtection": "Prevent dropping fishing rods",
   "text.autoconfig.penhelper.option.inventoryTracking": "Inventory Tracking",
   "text.autoconfig.penhelper.option.inventoryTracking.enabled": "Enabled",
   "text.autoconfig.penhelper.option.inventoryTracking.overlay": "Show Overlay",

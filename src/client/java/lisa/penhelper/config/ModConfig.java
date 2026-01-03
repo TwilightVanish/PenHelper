@@ -8,10 +8,17 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 @Config.Gui.Background("minecraft:textures/block/stone_bricks.png")
 public class ModConfig implements ConfigData {
     @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
+    public General general = new General();
+
+    @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
     public InventoryTracking inventoryTracking = new InventoryTracking();
 
     @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
     public Filters filters = new Filters();
+
+    public static class General {
+        public boolean dropProtection = true;
+    }
 
     public static class InventoryTracking {
         public boolean enabled = false;
